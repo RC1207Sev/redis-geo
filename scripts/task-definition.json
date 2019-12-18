@@ -28,6 +28,18 @@
                 {
                     "name": "REDIS_HOST",
                     "value": "${IMAGE_NAME}-redis"
+                },
+                {
+                    "name": "VIRTUAL_HOST",
+                    "value": "${AWS_VIRTUAL_HOST}"
+                },
+                {
+                    "name": "LETSENCRYPT_HOST",
+                    "value": "${LETSENCRYPT_HOST}"
+                },
+                {
+                    "name": "LETSENCRYPT_EMAIL",
+                    "value": "${LETSENCRYPT_EMAIL}"
                 }
             ]
         },
